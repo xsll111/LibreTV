@@ -110,21 +110,14 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    },
     // 下面是一些成人内容的API源，默认隐藏
      jkun: {
         api: 'https://jkunzyapi.com/api.php/provide/vod',
          name: 'jkun资源',
-         adult: true
      },
      bwzy: {
          api: 'https://api.bwzyz.com/api.php/provide/vod/at/json/',
          name: '百万资源',
-         adult: true
      },
 
     // 下面是资源失效率高的API源，不建议使用
